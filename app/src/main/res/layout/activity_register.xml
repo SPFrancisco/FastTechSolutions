@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@color/darkBlue_400">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/titleLabelSignUp"
+            style="@style/TextAppearance.MaterialComponents.Headline4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Sign Up"
+            android:textColor="@color/white" />
+
+        <TextView
+            style="@style/TextAppearance.MaterialComponents.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleLabelSignUp"
+            android:layout_centerHorizontal="true"
+            android:text="Create your account"
+            android:textColor="@color/white" />
+
+        <!--  Name  -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/registerNameTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleLabelSignUp"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/registerNameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:inputType="textPersonName" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--  Last Name  -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/registerLastNameTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerNameTitle"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/registerLastNameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Last Name"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:inputType="textPersonName" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--  Phone Number  -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/registerPhoneNumberTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerLastNameTitle"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/registerPhoneNumberEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:inputType="phone" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--  Email  -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/registerEmailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerPhoneNumberTitle"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/registerEmailEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:inputType="textEmailAddress" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--  Gender  -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/registerGenderTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerEmailTitle"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/registerGenderEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Gender"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--  Date of Birth  -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/registerDateOfBirthTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerGenderTitle"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/registerDateOfBirthEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date of Birth"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:inputType="date" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--  Country  -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/registerCountryTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerDateOfBirthTitle"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/registerCountryEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Country"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--  Province  -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/registerProvinceTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerCountryTitle"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/registerProvinceEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Province"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--  Address  -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/registerAddressTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerProvinceTitle"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/registerAddressEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--  Password  -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/registerPasswordTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/registerAddressTitle"
+            android:layout_marginTop="10dp"
+            app:passwordToggleEnabled="true"
+            android:textColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/registerPasswordEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:inputType="textPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--  Re-Password  -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/registerRePasswordTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/registerPasswordTitle"
+            android:layout_marginTop="10dp"
+            app:passwordToggleEnabled="true"
+            android:textColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/registerRePasswordEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirm Password"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:inputType="textPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--  SignUp button  -->
+        <Button
+            android:id="@+id/btn_signUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/registerRePasswordTitle"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="0dp"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:background="@color/darkBlue_100"/>
+
+    </RelativeLayout>
+
+</ScrollView>

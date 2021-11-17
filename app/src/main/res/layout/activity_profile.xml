@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="@color/darkBlue_400">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!--  Name  -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/profileNameTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="40dp"
+            android:textColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/profileNameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="First Name"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:inputType="textPersonName" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--  Last Name  -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/profileLastNameTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/profileLastNameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Last Name"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:inputType="textPersonName" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--  Phone Number  -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/profilePhoneNumberTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/profilePhoneNumberEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:inputType="phone" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--  Email  -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/profileEmailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/profileEmailEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:inputType="textEmailAddress" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--  Gender  -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/profileGenderTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/profileGenderEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Gender"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--  Date of Birth  -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/profileDateOfBirthTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/profileDateOfBirthEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date of Birth"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:inputType="date" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--  Country  -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/profileCountryTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/profileCountryEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Country"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--  Province  -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/profileProvinceTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/profileProvinceEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Province"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--  Address  -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/profileAddressTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/profileAddressEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Back -->
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Back"
+            android:textColor="@color/white"
+            android:background="@color/darkBlue_100" />
+
+    </LinearLayout>
+
+</ScrollView>
