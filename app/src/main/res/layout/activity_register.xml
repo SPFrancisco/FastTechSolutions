@@ -37,7 +37,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/titleLabelSignUp"
             android:layout_marginTop="40dp"
-            android:textColor="@color/white">
+            android:textColor="@color/white"
+            android:textColorHint="@color/white">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/registerNameEdit"
@@ -57,7 +58,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/registerNameTitle"
             android:layout_marginTop="10dp"
-            android:textColor="@color/white">
+            android:textColor="@color/white"
+            android:textColorHint="@color/white">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/registerLastNameEdit"
@@ -77,7 +79,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/registerLastNameTitle"
             android:layout_marginTop="10dp"
-            android:textColor="@color/white">
+            android:textColor="@color/white"
+            android:textColorHint="@color/white">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/registerPhoneNumberEdit"
@@ -97,7 +100,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/registerPhoneNumberTitle"
             android:layout_marginTop="10dp"
-            android:textColor="@color/white">
+            android:textColor="@color/white"
+            android:textColorHint="@color/white">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/registerEmailEdit"
@@ -117,7 +121,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/registerEmailTitle"
             android:layout_marginTop="10dp"
-            android:textColor="@color/white">
+            android:textColor="@color/white"
+            android:textColorHint="@color/white">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/registerGenderEdit"
@@ -137,7 +142,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/registerGenderTitle"
             android:layout_marginTop="10dp"
-            android:textColor="@color/white">
+            android:textColor="@color/white"
+            android:textColorHint="@color/white">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/registerDateOfBirthEdit"
@@ -157,7 +163,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/registerDateOfBirthTitle"
             android:layout_marginTop="10dp"
-            android:textColor="@color/white">
+            android:textColor="@color/white"
+            android:textColorHint="@color/white">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/registerCountryEdit"
@@ -177,7 +184,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/registerCountryTitle"
             android:layout_marginTop="10dp"
-            android:textColor="@color/white">
+            android:textColor="@color/white"
+            android:textColorHint="@color/white">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/registerProvinceEdit"
@@ -197,7 +205,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/registerProvinceTitle"
             android:layout_marginTop="10dp"
-            android:textColor="@color/white">
+            android:textColor="@color/white"
+            android:textColorHint="@color/white">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/registerAddressEdit"
@@ -218,7 +227,8 @@
             android:layout_below="@+id/registerAddressTitle"
             android:layout_marginTop="10dp"
             app:passwordToggleEnabled="true"
-            android:textColor="@color/white">
+            android:textColor="@color/white"
+            android:textColorHint="@color/white">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/registerPasswordEdit"
@@ -239,7 +249,8 @@
             android:layout_below="@+id/registerPasswordTitle"
             android:layout_marginTop="10dp"
             app:passwordToggleEnabled="true"
-            android:textColor="@color/white">
+            android:textColor="@color/white"
+            android:textColorHint="@color/white">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/registerRePasswordEdit"

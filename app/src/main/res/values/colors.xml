@@ -9,7 +9,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="darkBlue_500">#FF010C52</color>
     <color name="darkBlue_400">#FF212B6B</color>
-    <color name="darkBlue_100">#FF31409E</color>
+    <color name="darkBlue_300">#FF293585</color>
+    <color name="darkBlue_100">#FF394AB8</color>
     <color name="darkPurple">#FF29045E</color>
     <color name="lightBlue">#FF0A67D2</color>
     <color name="darkGray">#FF4E6366</color>
